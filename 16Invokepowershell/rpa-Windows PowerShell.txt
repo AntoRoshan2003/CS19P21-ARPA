@@ -1,0 +1,154 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\ADHARSHINI> $PSVersionTable
+
+Name                           Value
+----                           -----
+PSVersion                      5.1.22621.3958
+PSEdition                      Desktop
+PSCompatibleVersions           {1.0, 2.0, 3.0, 4.0...}
+BuildVersion                   10.0.22621.3958
+CLRVersion                     4.0.30319.42000
+WSManStackVersion              3.0
+PSRemotingProtocolVersion      2.3
+SerializationVersion           1.1.0.1
+
+
+PS C:\Users\ADHARSHINI> New-Item -Path . -ItemType "file" -Name "rec.txt" -Value "This is the content in first file"
+
+
+    Directory: C:\Users\ADHARSHINI
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         8/14/2024   8:31 AM             33 rec.txt
+
+
+PS C:\Users\ADHARSHINI> type rec.txt
+This is the content in first file
+PS C:\Users\ADHARSHINI>  New-Item -Path . -ItemType "file" -Name "rit.txt" -Value "This is the content in second file"
+
+
+    Directory: C:\Users\ADHARSHINI
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         8/14/2024   8:34 AM             34 rit.txt
+
+
+PS C:\Users\ADHARSHINI> type rit.txt
+This is the content in second file
+PS C:\Users\ADHARSHINI> dir
+
+
+    Directory: C:\Users\ADHARSHINI
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        11/27/2023   7:39 PM                .anaconda
+d-----         5/20/2024   7:01 PM                .android
+d-----        10/14/2022  10:16 PM                .cache
+d-----         5/24/2024  10:52 AM                .conda
+d-----        10/23/2023   6:30 PM                .continuum
+d-----          8/6/2024   8:46 PM                .dbclient
+d-----         8/29/2023   8:36 AM                .eclipse
+d-----         5/17/2024   3:08 PM                .gradle
+d-----         8/13/2023   9:33 PM                .idlerc
+d-----         5/13/2024  11:44 AM                .ipynb_checkpoints
+d-----        11/27/2023   7:36 PM                .ipython
+d-----         8/29/2023   8:36 AM                .jmc
+d-----        11/27/2023   7:40 PM                .jupyter
+d-----        11/21/2022   6:52 PM                .m2
+d-----        11/27/2023   7:36 PM                .matplotlib
+d-----         6/24/2023   6:26 PM                .ms-ad
+d-----         6/27/2024  10:45 AM                .nbi
+d-----         7/31/2023  11:49 AM                .nuget
+d-----        11/30/2023   3:55 PM                .p2
+d-----          5/1/2024  10:21 AM                .redhat
+d-----        11/29/2023   3:10 PM                .rsp
+d-----        11/27/2023   7:52 PM                .spyder-py3
+d-----         8/12/2023   6:10 PM                .vscode
+d-----         12/1/2023  10:38 PM                .zenmap
+d-----        11/27/2023   7:52 PM                anaconda3
+d-----         12/1/2023  10:12 PM                Cisco Packet Tracer 8.2.1
+d-r---         9/12/2023   8:04 AM                Contacts
+d-----          8/6/2024   9:12 PM                Desktop
+d-r---          8/9/2024  10:27 PM                Documents
+d-r---         8/13/2024   1:38 PM                Downloads
+d-----        11/29/2023  10:41 AM                eclipse
+d-----         4/21/2023  10:36 AM                eclipse-workspace
+d-r---         9/12/2023   8:04 AM                Favorites
+d-r---         9/12/2023   8:04 AM                Links
+d-----         5/23/2024   5:15 PM                ML - Skincare
+d-r---         5/19/2024   2:47 PM                Music
+dar--l         8/10/2024  12:35 PM                OneDrive
+d-r---          8/9/2024  10:22 PM                Pictures
+d-r---         9/12/2023   8:04 AM                Saved Games
+d-r---         9/12/2023   8:04 AM                Searches
+d-r---         7/16/2024   8:00 PM                Videos
+-a----        10/23/2023   6:31 PM             25 .condarc
+-a----         7/16/2024   1:39 PM            223 .gitconfig
+-a----         12/1/2023   8:17 PM            186 .packettracer
+-a----          3/1/2024   7:13 PM           1389 Book1.csv
+-a----          3/1/2024   6:54 PM            348 dataset.csv
+-a----         8/14/2024   8:31 AM             33 rec.txt
+-a----         8/14/2024   8:34 AM             34 rit.txt
+-a----          3/1/2024   7:07 PM            454 Salary_Data.csv
+
+
+PS C:\Users\ADHARSHINI>  New-Item -Path . -ItemType "directory" -Name "ARPA"
+
+
+    Directory: C:\Users\ADHARSHINI
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         8/14/2024   8:36 AM                ARPA
+
+
+PS C:\Users\ADHARSHINI> dir/ad
+dir/ad : The term 'dir/ad' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a
+path was included, verify that the path is correct and try again.
+At line:1 char:1
++ dir/ad
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (dir/ad:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\ADHARSHINI> Move-Item -Path "rec.txt" -Destination "ARPA"
+PS C:\Users\ADHARSHINI> cd ARPA
+PS C:\Users\ADHARSHINI\ARPA> dir
+
+
+    Directory: C:\Users\ADHARSHINI\ARPA
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         8/14/2024   8:31 AM             33 rec.txt
+
+
+PS C:\Users\ADHARSHINI\ARPA> cd..
+PS C:\Users\ADHARSHINI> Move-Item -Path "rit.txt" -Destination "ARPA"
+PS C:\Users\ADHARSHINI> cd ARPA
+PS C:\Users\ADHARSHINI\ARPA> dir
+
+
+    Directory: C:\Users\ADHARSHINI\ARPA
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         8/14/2024   8:31 AM             33 rec.txt
+-a----         8/14/2024   8:34 AM             34 rit.txt
+
+
+PS C:\Users\ADHARSHINI\ARPA> cd..
+PS C:\Users\ADHARSHINI>
