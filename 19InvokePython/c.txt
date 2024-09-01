@@ -1,0 +1,93 @@
+Sure, here are 10 multiple-choice questions (MCQs) related to Java programming:
+
+1. **What is the default value of a boolean variable in Java?**
+   - A) true
+   - B) false
+   - C) null
+   - D) 0
+
+   **Answer: B) false**
+
+2. **Which of the following is the correct way to declare a two-dimensional array in Java?**
+   - A) int[][] array;
+   - B) int array[][];
+   - C) Both A and B
+   - D) None of the above
+
+   **Answer: C) Both A and B**
+
+3. **What is the output of the following code?**
+
+   ```java
+   System.out.println(10 / 3);
+   ```
+   - A) 3.33
+   - B) 3
+   - C) 3.0
+   - D) 3.333333
+
+   **Answer: B) 3**
+
+4. **Which keyword is used to define a class in Java?**
+   - A) class
+   - B) define
+   - C) struct
+   - D) object
+
+   **Answer: A) class**
+
+5. **In Java, which access modifier allows visibility to all classes within the same package and subclasses outside the package?**
+   - A) public
+   - B) protected
+   - C) default
+   - D) private
+
+   **Answer: B) protected**
+
+6. **Which of the following is not a valid Java data type?**
+   - A) int
+   - B) float
+   - C) string
+   - D) char
+
+   **Answer: C) string**
+
+7. **What will be the output of the following code snippet?**
+
+   ```java
+   String s1 = "Java";
+   String s2 = s1.concat(" Programming");
+   System.out.println(s2);
+   ```
+   - A) Java Programming
+   - B) JavaProgramming
+   - C) Java
+   - D) Java Programming
+
+   **Answer: A) Java Programming**
+
+8. **Which Java feature provides the ability to use a single method to perform different tasks?**
+   - A) Encapsulation
+   - B) Inheritance
+   - C) Polymorphism
+   - D) Abstraction
+
+   **Answer: C) Polymorphism**
+
+9. **What is the purpose of the `static` keyword in Java?**
+   - A) It allows a method or variable to be accessed without creating an instance of the class.
+   - B) It indicates that a method or variable is constant.
+   - C) It allows multiple instances of a class.
+   - D) It defines a class as abstract.
+
+   **Answer: A) It allows a method or variable to be accessed without creating an instance of the class.**
+
+10. **Which method is called when an object is created using the `new` keyword?**
+    - A) finalize()
+    - B) constructor
+    - C) main()
+    - D) clone()
+
+    **Answer: B) constructor**
+
+Feel free to ask if you need explanations or further details about any of these questions!

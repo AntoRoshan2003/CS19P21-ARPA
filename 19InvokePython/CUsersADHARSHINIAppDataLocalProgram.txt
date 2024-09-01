@@ -1,0 +1,3 @@
+C:\Users\ADHARSHINI\AppData\Local\Programs\Python\Python310
+
+"C:\Users\ADHARSHINI\AppData\Local\Programs\Python\Python310\python310.dll"
